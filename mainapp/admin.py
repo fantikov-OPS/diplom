@@ -5,7 +5,7 @@ from .models import *
 
 class ProductAdmin(admin.ModelAdmin):
     change_form_template = 'custom_admin/change_form.html'
-    #exclude = ('features',)
+
 
 
 admin.site.register(Category)

@@ -1,7 +1,7 @@
 from django import forms
 
 from .models import FeatureValidator, CategoryFeature
-from mainapp.models import Category
+from diplom.mainapp.models import Category
 
 
 class NewCategoryFeatureKeyForm(forms.ModelForm):
